@@ -2,31 +2,112 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Pictures</title>
+  <title>My Portfolio Website</title>
   <link rel="stylesheet" href="second-styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/vju0mqa.css">
 </head>
 <body>
 <header>
   <h1>I am Darryl Nurse.</h1>
-  <h2>These are my photos.</h2>
-  <h3><a href="https://github.com/darrylnurse/website-test">Back to GitHub</a></h3>
+  <nav>
+    <h3><a href="https://github.com/darrylnurse/website-test">Go to This Repository</a></h3>
+    <h3><a href="https://www.linkedin.com/in/darrylnurse/">Go to My LinkedIn</a></h3>
+  </nav>
 </header>
 <main>
-  <section id="left">
-    <div><img src="my-pictures/bee-pic.jpg" alt="bee"></div>
-    <div><img src="my-pictures/duck-pic.jpg" alt="duck"></div>
-    <div><img src="my-pictures/turtle-pic.jpg" alt="turtle"></div>
-    <div><img src="my-pictures/dragonfly-pic.jpg" alt="dragonfly"></div>
-    <div><img src="my-pictures/starling-pic.jpg" alt="starling"></div>
-    <div><img src="my-pictures/pigeon-pic.jpg" alt="pigeon"></div>
+  <section id="about-me">
+    <h2>About Me</h2>
+    <p class="body-paragraph">I am a student at CUNY York college and an aspiring Fullstack Developer, at least for now.
+      <br>My goal has changed a few times over my career as a student, as the more I learn, the more I want to learn, create and become.</p>
+    <p class="body-paragraph">I love art, and imbue this passion into my designs, whether it is a magnificent website, clean, beautiful code or a gorgeous picture.</p>
   </section>
-  <section id="right">
-    <div><img src="my-pictures/shed-pic.jpg" alt="shed"></div>
-    <div><img src="my-pictures/bridge-pic.jpg" alt="box"></div>
-    <div><img src="my-pictures/sign-pic.jpg" alt="sign"></div>
-    <div><img src="my-pictures/chrome.pic.jpg" alt="chrome"></div>
-    <div><img src="my-pictures/oculus-pic.jpg" alt="oculus"></div>
-    <div><img src="my-pictures/goldhand-pic.jpg" alt="goldhand"></div>
+  <section id="projects">
+    <h2>My Projects</h2>
+    <p class="body-paragraph">Currently, I have no major completed projects.
+      <br>There are things I have worked on that exist within my local system, but they are not yet worthy of exhibition.</p>
+  </section>
+  <section id="experience">
+    <h2>My Experience</h2>
+    <div class="centered-box">
+      <h4>Education</h4>
+      <div class="experience-item">
+        <p><strong>City University of New York (CUNY) York College</strong> (Queens, NY)<em> January 2021 - December 2024</em></p>
+        <div class="lower-text">
+          <p>Major: Computer Science (GPA – 3.72)</p>
+          <p>Minor: Studio Art</p>
+          <p>Honors/Awards: NFS S-STEM Scholarship – A grant funded program sponsored by the National Science Foundation which is awarded to academically talented students.</p>
+        </div>
+      </div>
+      <h4>Relevant Work Experience</h4>
+      <div class="experience-item">
+        <p><strong>Web Development Fellow - CUNY Tech Prep</strong> (New York, NY)<em> June 2023 - Present</em></p>
+        <ul>
+          <li>Selected for a competitive web development fellowship with students from across the eleven CUNY senior colleges where Fellows create technical projects using tools such as React, Node + Express, and PostgreSQL.</li>
+          <li>Participate in weekly courses and learn industry best practices for design, implementation, and deployment such as MVC, version control with Git/GitHub, agile & Scrum with Trello and Slack, test driven development, and CI/CD.</li>
+        </ul>
+      </div>
+      <h4>Supporting Work Experience</h4>
+      <div class="experience-item">
+        <p><strong>Retail Sales Associate - Best Buy</strong> (Valley Stream, NY)<em> September 2021 - Present</em></p>
+        <ul>
+          <li>Increased customer satisfaction in-store with high level of professionalism and broad knowledge of store products and services.</li>
+          <li>Used POS system to process sales, returns, online orders and activations, as well as Internal Employee Systems to assure information, standard operating policies, and stock count.</li>
+        </ul>
+      </div>
+      <div class="experience-item">
+        <p><strong>Administrative Assistant - NSF GenCyber Camp</strong> (Queens, NY)<em> July 2023 - August 2023</em></p>
+        <ul>
+          <li>Developed and implemented graphical designs to strengthen learning of core Cybersecurity concepts.</li>
+          <li>Performed administrative procedures to set up and ensure smooth operation of the camp activities and environment.</li>
+        </ul>
+      </div>
+      <div class="experience-item">
+        <p><strong>Business Intern - KPMG</strong> (Bridgetown, Barbados)<em> July 2019 - August 2019</em></p>
+        <ul>
+          <li>Gathered, organized, and input information into a digital database.</li>
+          <li>Developed and updated tracking spreadsheets for process monitoring and reporting.</li>
+        </ul>
+      </div>
+      <div class="box-bottom"></div>
+    </div>
+  </section>
+  <section id="technology">
+    <h2>Technologies I Use</h2>
+    <div>
+      <img src="my-pictures/html-color-codes.png" alt="html-color-codes">
+      <p class="color-codes"><a href="https://htmlcolorcodes.com/">Color Codes</a></p>
+    </div>
+    <div>
+      <img src="my-pictures/google-fonts-logo.png" alt="google-fonts">
+      <p class="color-codes"><a href="https://fonts.google.com/">Google Fonts</a></p>
+    </div>
+    <div>
+      <img src="my-pictures/adobe-fonts-logo.png" alt="adobe-fonts">
+      <p class="color-codes"><a href="https://fonts.adobe.com/">Adobe Fonts</a></p>
+    </div>
+  </section>
+  <section id="my-photos">
+    <h2>My Photos</h2>
+    <p class="body-paragraph">I love nature, and hope my photos can bring you the same sense of joy they brought me when I took them.</p>
+    <section class="photos">
+      <section id="left">
+        <div><img src="my-pictures/bee-pic.jpg" alt="bee"></div>
+        <div><img src="my-pictures/duck-pic.jpg" alt="duck"></div>
+        <div><img src="my-pictures/turtle-pic.jpg" alt="turtle"></div>
+        <div><img src="my-pictures/dragonfly-pic.jpg" alt="dragonfly"></div>
+        <div><img src="my-pictures/starling-pic.jpg" alt="starling"></div>
+        <div><img src="my-pictures/pigeon-pic.jpg" alt="pigeon"></div>
+      </section>
+      <section id="right">
+        <div><img src="my-pictures/shed-pic.jpg" alt="shed"></div>
+        <div><img src="my-pictures/bridge-pic.jpg" alt="box"></div>
+        <div><img src="my-pictures/sign-pic.jpg" alt="sign"></div>
+        <div><img src="my-pictures/chrome.pic.jpg" alt="chrome"></div>
+        <div><img src="my-pictures/oculus-pic.jpg" alt="oculus"></div>
+        <div><img src="my-pictures/goldhand-pic.jpg" alt="goldhand"></div>
+      </section>
+    </section>
   </section>
 </main>
 </body>
