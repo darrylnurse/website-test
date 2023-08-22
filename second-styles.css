@@ -13,7 +13,6 @@
 body {
     background-image: url("my-pictures/flower-pic.jpg");
     background-size: 100%;
-    background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     padding-bottom: 40px;
